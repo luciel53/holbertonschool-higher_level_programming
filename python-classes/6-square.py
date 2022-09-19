@@ -29,7 +29,7 @@ class Square:
     def my_print(self):
         if self.__size > 0:
             for row in range(self.__size):
-                print("_" * self.__position[0], end="")
+                print(" " * self.__position[0], end="")
                 for col in range(self.__size):
                     print('#', end="")
                 print()
