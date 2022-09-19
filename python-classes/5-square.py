@@ -2,9 +2,6 @@
 """This function does strictly nothing."""
 
 
-from tkinter import Y
-
-
 class Square:
     """my first class"""
     def __init__(self, size=0):
