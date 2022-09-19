@@ -2,6 +2,9 @@
 """This function does strictly nothing."""
 
 
+from tkinter import Y
+
+
 class Square:
     """my first class"""
     def __init__(self, size=0):
@@ -30,5 +33,6 @@ class Square:
             for row in range(self.__size):
                 for col in range(self.__size):
                     print('#', end="")
-                else:
-                    print()
+                print()
+        elif self.__size == 0:
+            print()
