@@ -11,6 +11,10 @@
 	>>> add_integer(-2, 4)
 	2
 
-	Adds a float number:
+	Adds a float number and an integer:
 	>>> add_integer(8.2, 1)
 	9
+
+	Adds 2 negative floats:
+	>>> add_integer(-2.2, -1.1)
+	3
