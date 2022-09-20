@@ -17,4 +17,4 @@
 
 	Adds 2 negative floats:
 	>>> add_integer(-2.2, -1.1)
-	3
+	-3
