@@ -15,5 +15,5 @@
 	2
 
 	Adds a float number:
-	>>> add_integer(8.2, 1)
-	9.2
+	>>> add_integer(8.2, 2)
+	10
