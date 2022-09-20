@@ -40,6 +40,8 @@ class Square:
 
     def my_print(self):
         if self.__size > 0:
+            for i in range(self.position[1]):
+                print()
             for row in range(self.__size):
                 print(" " * self.__position[0], end="")
                 for col in range(self.__size):
