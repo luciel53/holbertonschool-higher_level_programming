@@ -8,9 +8,9 @@ class Square:
         self.__size = size
         self.__position = position
 
-        if type(size) is not int:
+        if type(self.__size) is not int:
             raise TypeError("size must be an integer")
-        if size < 0:
+        if self.__size < 0:
             raise ValueError("size must be >= 0")
 
         if type(position) is not tuple or len(position) != 2:
