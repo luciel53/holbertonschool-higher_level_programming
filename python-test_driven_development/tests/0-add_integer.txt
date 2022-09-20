@@ -1,7 +1,7 @@
 #doctest 0-add_integer.py
 
 
-	>>> add_integer = __import__('0-add_integer').add_integer
+	>>> add_integer = __import__('0-add_integer.py').add_integer
 
 	This function adds 2 integers:
 	>>> add_integer(2, 1)
@@ -18,14 +18,3 @@
 	Adds 2 negative floats:
 	>>> add_integer(-2.2, -1.1)
 	-3
-
-	Adds an integer and a letter:
-	>>> add_integer(5, "m")
-	Traceback (most recent call last):
-		...
-	TypeError: b must be an integer
-
-	Adds 2 zero:
-	>>> add_integer(0, 0)
-	0
-
