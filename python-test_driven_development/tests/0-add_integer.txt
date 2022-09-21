@@ -39,7 +39,7 @@
 	ValueError: cannot convert float NaN to integer
 
 	Adds a variable that is not defined:
-	>>> add_integer(lucie(lucie))
+	>>> add_integer(lucie(LUCIE))
 	Traceback (most recent call last):
-	NameError: name 'lucie' is not defined
+	NameError: name 'LUCIE' is not defined
 
