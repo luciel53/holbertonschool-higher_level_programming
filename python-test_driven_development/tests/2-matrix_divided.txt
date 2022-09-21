@@ -1,6 +1,7 @@
 #doctest.2-matrix_divided.py
 
 
+
 	>>> matrix_divided = __import__('2-matrix_divided').matrix_divided
 
 
@@ -55,7 +56,7 @@
 	Traceback (most recent call last):
 	TypeError: matrix_divided() missing 1 required positional argument: 'div'
 
-	Test with only one list:
-	>>> matrix_divided([[9, "4"], [13, 8]], 3)
+	Test with non integer:
+	>>> matrix_divided([[9, a], [13, 8]], 3)
 	Traceback (most recent call last):
 	TypeError: matrix must be a matrix (list of lists) of integers/floats
