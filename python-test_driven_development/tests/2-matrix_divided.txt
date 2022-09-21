@@ -16,3 +16,9 @@
 	>>> matrix_divided(12, "2")
 	Traceback (most recent call last):
 	TypeError: div must be a number
+
+	Test that divides integers with wrong operand:
+	>>> matrix_divided[12, 2], "2"
+	Traceback (most recent call last):
+	TypeError: div must be a number
+
