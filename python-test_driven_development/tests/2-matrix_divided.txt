@@ -3,7 +3,11 @@
 
 	>>> matrix_divided = __import__('2-matrix_divided').matrix_divided
 
-	A function that divides 2 integers:
+	Test without any error:
+	>>> matrix_divided([[1, 2, 3], [4, 5, 6]], 3)
+	[[0.33, 0.67, 1.0], [1.33, 1.67, 2.0]]
+
+	Test that divides 2 integers:
 	>>> matrix_divided(50, 5)
 	Traceback (most recent call last):
 	TypeError: matrix must be a matrix (list of lists)of integers/floats
