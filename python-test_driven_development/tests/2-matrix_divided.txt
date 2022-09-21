@@ -5,4 +5,5 @@
 
 	A function that divides 2 integers:
 	>>> matrix_divided(50, 5)
-	10
+	Traceback (most recent call last):
+	TypeError: matrix must be a matrix (list of lists)of integers/floats
