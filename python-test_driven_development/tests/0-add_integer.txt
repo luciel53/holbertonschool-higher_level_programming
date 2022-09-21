@@ -41,5 +41,5 @@
 	Adds a variable that is not defined:
 	>>> add_integer(lucie(lucie))
 	Traceback (most recent call last):
-	NameError: name 'LUCIE' is not defined
+	NameError: name 'lucie' is not defined
 
