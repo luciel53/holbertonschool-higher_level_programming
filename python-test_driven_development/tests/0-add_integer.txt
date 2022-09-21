@@ -21,7 +21,7 @@
 
 	Adds only one integer:
 	>>> add_integer(2, )
-	2
+	100
 
 	Function without any argument:
 	>>> add_integer()
