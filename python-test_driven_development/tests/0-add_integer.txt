@@ -38,7 +38,8 @@
 	Traceback (most recent call last):
 	ValueError: cannot convert float NaN to integer
 
+	Adds a variable that is not defined:
 	>>> add_integer(a, 98)
 	Traceback (most recent call last):
-	ValueError
+	NameError: name 'a' is not defined
 
