@@ -52,7 +52,7 @@
 	TypeError: matrix_divided() missing 2 required positional arguments: 'matrix' and 'div'
 
 	Test with only one list:
-	>>> matrix_divided([9, 4])
+	>>> matrix_divided([9, 4], 6)
 	Traceback (most recent call last):
 	TypeError: matrix_divided() missing 1 required positional argument: 'div'
 
