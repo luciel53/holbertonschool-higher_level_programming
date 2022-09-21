@@ -21,6 +21,12 @@
 
 	Adds only one integer:
 	>>> add_integer(2)
-	100
+	2
+
+	Function without any argument:
+	>>> add_integer()
+	Traceback (most recent call last):
+		...
+	TypeError: Missing an integer
 
 
