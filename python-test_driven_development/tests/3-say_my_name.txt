@@ -6,8 +6,7 @@
 
 	Test without any error:
 	>>> say_my_name('Bob', 'Marley')
-	Traceback (most recent call last):
-	NameError: name 'Bob' is not defined
+	Bob Marley
 
 	Test
 	>>> say_my_name(10, 'Dupont')
