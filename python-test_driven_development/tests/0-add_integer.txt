@@ -30,4 +30,5 @@
 
 	Adds 2 infinite floats:
 	>>> add_integer(float('inf'), 42)
-	float('inf')
+	Traceback (most recent call last):
+	OverflowError: cannot convert float infinity to integer
