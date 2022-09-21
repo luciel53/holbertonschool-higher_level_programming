@@ -48,4 +48,4 @@
 	Test with only one list:
 	>>> matrix_divided([9, 4])
 	Traceback (most recent call last):
-	Error
+	TypeError: matrix_divided() missing 1 required positional argument: 'div'
