@@ -39,7 +39,7 @@
 	ValueError: cannot convert float NaN to integer
 
 	Adds a variable that is not defined:
-	>>> add_integer(lucie(LUCIE))
+	>>> add_integer(str(STR))
 	Traceback (most recent call last):
-	NameError: name 'LUCIE' is not defined
+	NameError: name 'STR' is not defined
 
