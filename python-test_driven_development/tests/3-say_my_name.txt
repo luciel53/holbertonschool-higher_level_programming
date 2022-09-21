@@ -6,7 +6,7 @@
 
 	Test without any error:
 	>>> say_my_name('Bob', 'Marley')
-	Bob Marley
+	My name is Bob Marley
 
 	Test
 	>>> say_my_name(10, 'Dupont')
