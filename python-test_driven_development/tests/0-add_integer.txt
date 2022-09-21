@@ -23,7 +23,4 @@
 	>>> add_integer(2)
 	100
 
-	Function without any argument:
-	>>> add_integer()
-	Traceback (most recent call last):
 
