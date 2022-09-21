@@ -11,10 +11,13 @@ Test if size is a string:
 
 Test if size is an integer > 0:
 	>>> print_square(4)
-	4
+	####
+	####
+	####
+	####
 
 Test if there is no argument:
 	>>> print_square()
 	Traceback (most recent call last):
-	TypeError: 'str' object cannot be interpreted as an integer
+	TypeError: print_square() missing 1 required positional argument: 'size'
 
