@@ -54,7 +54,7 @@
 	Test with only one list:
 	>>> matrix_divided([9, 4], 6)
 	Traceback (most recent call last):
-	TypeError: matrix_divided() missing 1 required positional argument: 'div'
+	TypeError: 'int' object is not iterable
 
 	Test with non integer:
 	>>> matrix_divided([[9, a], [13, 8]], 3)
