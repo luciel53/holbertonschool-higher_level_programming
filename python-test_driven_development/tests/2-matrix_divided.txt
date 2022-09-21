@@ -53,6 +53,6 @@
 	TypeError: matrix_divided() missing 1 required positional argument: 'div'
 
 	Test with only one list:
-	>>> matrix_divided([9, "4"], [13, 8], 3)
+	>>> matrix_divided([[9, "4"], [13, 8]], 3)
 	Traceback (most recent call last):
-	TypeError: matrix_divided() takes 2 positional arguments but 3 were given
+	TypeError: matrix must be a matrix (list of lists) of integers/floats
