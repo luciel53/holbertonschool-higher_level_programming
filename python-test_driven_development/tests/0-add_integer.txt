@@ -29,4 +29,4 @@
 	TypeError: add_integer() missing 1 required positional argument: 'a'
 
 	Adds 2 infinite floats:
-	>>> add_integer(float('inf'), float('-inf'))
+	>>> add_integer(float('inf'), 42)
