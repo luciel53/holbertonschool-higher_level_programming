@@ -1,0 +1,10 @@
+#doctest.3-say_my_name.py
+
+
+
+	>>> say_my_name = __import__('3-say_my_name').say_my_name
+
+	Test
+	>>> say_my_name(10, Dupont):
+	Traceback (most recent call last):
+	TypeError
