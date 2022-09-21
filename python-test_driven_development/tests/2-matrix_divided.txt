@@ -1,0 +1,8 @@
+#doctest.2-matrix_divided.py
+
+
+	>>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+
+	A function that divides 2 integers:
+	>>> matrix_divided(50, 5)
+	10
