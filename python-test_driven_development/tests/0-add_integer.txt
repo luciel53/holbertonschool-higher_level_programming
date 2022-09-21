@@ -30,3 +30,4 @@
 
 	Adds 2 infinite floats:
 	>>> add_integer(float('inf'), 42)
+	float('inf')
