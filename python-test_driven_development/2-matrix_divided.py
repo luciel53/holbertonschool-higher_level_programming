@@ -25,7 +25,7 @@ def matrix_divided(matrix, div):
     for row in matrix:
         for columns in row:
             if len(row) != len(matrix[0]):
-                raise TypeError("Each row of the matrix must have the" +
+                raise TypeError("Each row of the matrix must have the " +
                                 "same size")
         temp = list(map(lambda x: round(x / div, 2), row))
         new_matrix.append(temp)
