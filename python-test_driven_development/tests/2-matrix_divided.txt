@@ -20,7 +20,7 @@
 	Test that divides integers with wrong operand:
 	>>> matrix_divided([[12, 2], [5, 8]], "2")
 	Traceback (most recent call last):
-	TypeError: list indices must be integers or slices, not tuple
+	TypeError: div must be a number
 
 	Test
 	>>> matrix_divided([[3, "9"], [12, 3]], 3)
