@@ -35,6 +35,5 @@
 
 	>>> matrix_divided(['nothing'], ['to say'], 2)
 	Traceback (most recent call last):
-	TypeError: matrix must be a matrix (array of arrays of integers/floats)
-
+	TypeError: matrix_divided() takes 2 positional arguments but 3 were given
 
