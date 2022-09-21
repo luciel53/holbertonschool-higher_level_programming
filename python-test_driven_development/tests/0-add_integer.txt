@@ -24,7 +24,7 @@
 	100
 
 	Function without any argument:
-	>>> add_integer()
+	>>> add_integer(None)
 	Traceback (most recent call last):
 	TypeError: add_integer() missing 1 required positional argument: 'a'
 
