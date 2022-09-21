@@ -15,7 +15,7 @@
 	Test that divides an integer with a string:
 	>>> matrix_divided([[12, "2"][8, 21]], 2)
 	Traceback (most recent call last):
-	TypeError: div must be a number
+	TypeError: list indices must be integers or slices, not tuple
 
 	Test that divides integers with wrong operand:
 	>>> matrix_divided([[12, 2][5, 8]], "2")
