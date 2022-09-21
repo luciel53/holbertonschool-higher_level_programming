@@ -27,6 +27,11 @@
 	Traceback (most recent call last):
 	TypeError: matrix_divided() missing 1 required positional argument: 'div'
 
+	Test
+	>>> matrix_divided([[3, “9”], [15, 3]] / 3)
+	Traceback (most recent call last):
+	TypeError: matrix must be a matrix (array of arrays of integers/floats)
+
 
 
 
