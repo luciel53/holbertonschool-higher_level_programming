@@ -14,7 +14,7 @@
 	Test that matrix is not a list:
 	>>> matrix_divided(50, 5)
 	Traceback (most recent call last):
-	TypeError: matrix must be a matrix (list of lists)of integers/floats
+	TypeError: matrix must be a matrix (list of lists) of integers/floats
 
 	Test that divides an integer with a string:
 	>>> matrix_divided([[12, 2] [8, 21]], 2)
@@ -25,7 +25,7 @@
 	>>> matrix_divided([[12, 2], [5, 8]], "2")
 	Traceback (most recent call last):
 	TypeError: div must be a number
-
+of integers/floats
 	Test that divides without div:
 	>>> matrix_divided([[3, 9], [12, 3]])
 	Traceback (most recent call last):
