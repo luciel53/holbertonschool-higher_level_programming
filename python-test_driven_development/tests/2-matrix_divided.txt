@@ -13,12 +13,14 @@
 	TypeError: matrix must be a matrix (list of lists)of integers/floats
 
 	Test that divides an integer with a string:
-	>>> matrix_divided([[12, "2"][8, 21]], 2)
+	>>> matrix_divided([[12, "2"], [8, 21]], 2)
 	Traceback (most recent call last):
 	TypeError: list indices must be integers or slices, not tuple
 
 	Test that divides integers with wrong operand:
-	>>> matrix_divided([[12, 2][5, 8]], "2")
+	>>> matrix_divided([[12, 2], [5, 8]], "2")
 	Traceback (most recent call last):
 	TypeError: list indices must be integers or slices, not tuple
+
+	Test
 
