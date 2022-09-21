@@ -20,7 +20,7 @@
 	-3
 
 	Adds only one integer:
-	>>> add_integer(2)
+	>>> add_integer(2, )
 	2
 
 	Function without any argument:
