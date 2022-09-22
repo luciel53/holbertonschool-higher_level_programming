@@ -20,4 +20,4 @@ Test without argument:
 
 Test to print a blank line:
 	>>> text_indentation(":")
-	blank line
+	<BLANKLINE>
