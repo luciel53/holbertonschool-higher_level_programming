@@ -4,5 +4,6 @@
 
 	>>> text_indentation = __import__('5-text_indentation').text_indentation
 
-
-	
+Test with text:
+	>>> text_indentation("my text")
+	my text
