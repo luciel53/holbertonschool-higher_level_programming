@@ -16,4 +16,4 @@ Test where text is not a string:
 Test without argument:
 	>>> text_indentation()
 	Traceback (most recent call last):
-	TypeError: 
+	TypeError: text_indentation() missing 1 required positional argument: 'text'
