@@ -22,6 +22,12 @@ class TestMaxInteger(unittest.TestCase):
         self.assertEqual(max_integer(neg_numb), -1)
 
     def test_one_negative_numb(self):
+        # test for one negative number in a list
         one_neg_numb = [8, -9, 3, 5]
         self.assertEqual(max_integer(one_neg_numb), 8)
+
+    def test_max_middle(self):
+        # test for max in the middle
+        mid_list = [2, 6, 8, 4, 1]
+        self.assertEqual(max_integer(mid_list), 8)
 
