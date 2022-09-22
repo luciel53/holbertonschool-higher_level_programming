@@ -17,3 +17,8 @@ Test without argument:
 	>>> text_indentation()
 	Traceback (most recent call last):
 	TypeError: text_indentation() missing 1 required positional argument: 'text'
+
+Test with a blank line:
+	>>> text_indentation(\n)
+	Traceback (most recent call last):
+	TypeError
