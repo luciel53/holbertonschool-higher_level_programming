@@ -21,4 +21,4 @@ Test without argument:
 Test with a blank line:
 	>>> text_indentation(\n)
 	Traceback (most recent call last):
-	TypeError
+	SyntaxError: unexpected character after line continuation character
