@@ -4,6 +4,11 @@
 
 	>>> text_indentation = __import__('5-text_indentation').text_indentation
 
-Test with text:
+Test with a string:
 	>>> text_indentation("my text")
 	my text
+
+Test where text is not a string:
+	>>> text_indentation(555)
+	Traceback (most recent call last):
+	TypeError: text must be a string
