@@ -27,6 +27,6 @@ Test if size is not an integer:
 	TypeError: size must be an integer
 
 Test if size is not an integer and is negative:
-	>>> print_square(-2.53)
+	>>> print_square(-2)
 	Traceback (most recent call last):
 	TypeError: size must be an integer
