@@ -53,4 +53,12 @@ TypeError: age must be an integer
 Traceback (most recent call last):
 TypeError: age must be an integer
 
+* testing if value is a string:
+>>> B.integer_validator("age", "4")
+Traceback (most recent call last):
+TypeError: age must be an integer
 
+* testing if value is a tuple:
+>>> B.integer_validator("age", (4, ))
+Traceback (most recent call last):
+TypeError: age must be an integer
