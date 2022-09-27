@@ -1,0 +1,7 @@
+#doctest 1-my_list.py
+
+	>>> my_list = __import__('1-my_list').my_list
+
+	A function that returns a list, sorted :
+	>>> print_sorted(2, 6)
+	[2, 6]
