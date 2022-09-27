@@ -11,6 +11,9 @@ area(self)
 integer_validator(self, name, value)
 
 test area error:
->>> area(self)
+>>> a = a_function()
+>>> a.area(self)
+Traceback (most recent call last):
+TypeError: 
 
 
