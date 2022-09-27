@@ -12,7 +12,6 @@ integer_validator(self, name, value)
 
 test area error:
 >>> B.area()
-Traceback (most recent call last):
-TypeError:
+Exception: area() is not implemented
 
 
