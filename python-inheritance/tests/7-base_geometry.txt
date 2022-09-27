@@ -4,15 +4,14 @@
 
 
 >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
-
+>>> B = BaseGeometry()
 
 Function to be test:
 area(self)
 integer_validator(self, name, value)
 
 test area error:
->>> a = BaseGeometry()
->>> a.area(self)
+>>> B.area()
 Traceback (most recent call last):
 TypeError:
 
