@@ -10,6 +10,14 @@ Function to be test:
 area(self)
 integer_validator(self, name, value)
 
+Functions that work:
+
+* testing if integer_validator has a value positive value:
+>>> B.integer_validator("age", 4)
+
+
+Errors functions:
+
 * test area error:
 >>> B.area()
 Traceback (most recent call last):
@@ -29,4 +37,20 @@ TypeError: integer_validator() missing 1 required positional argument: 'value'
 >>> B.integer_validator("age", -5)
 Traceback (most recent call last):
 ValueError: age must be greater than 0
+
+* testing if integer_validator has a value equal to 0:
+>>> B.integer_validator("age", 0)
+Traceback (most recent call last):
+ValueError: age must be greater than 0
+
+* testing with a value that is a list:
+>>> B.integer_validator("age", {4, 6})
+Traceback (most recent call last):
+TypeError: age must be an integer
+
+* testing if a value is True:
+>>> B.integer_validator("age", True)
+Traceback (most recent call last):
+TypeError: age must be an integer
+
 
