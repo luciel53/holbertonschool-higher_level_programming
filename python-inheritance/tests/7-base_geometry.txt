@@ -62,3 +62,13 @@ TypeError: age must be an integer
 >>> B.integer_validator("age", (4, ))
 Traceback (most recent call last):
 TypeError: age must be an integer
+
+* testing if value is an array:
+>>> B.integer_validator("age", [5])
+Traceback (most recent call last):
+TypeError: age must be an integer
+
+* testing if integer validator doesn't have value:
+>>> B.integer_validator("age", None)
+Traceback (most recent call last):
+TypeError: age must be an integer
