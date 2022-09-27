@@ -11,7 +11,7 @@ area(self)
 integer_validator(self, name, value)
 
 test area error:
->>> a = base_geometry()
+>>> a = BaseGeometry()
 >>> a.area(self)
 Traceback (most recent call last):
 TypeError:
