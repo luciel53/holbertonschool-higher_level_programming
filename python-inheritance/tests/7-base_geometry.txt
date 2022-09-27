@@ -3,7 +3,7 @@
 
 
 
->>> base_geometry = __import__('7-base_geometry.py').base_geometry
+>>> base_geometry = __import__('7-base_geometry').base_geometry
 
 
 Function to be test:
@@ -11,9 +11,9 @@ area(self)
 integer_validator(self, name, value)
 
 test area error:
->>> a = a_function()
+>>> a = base_geometry()
 >>> a.area(self)
 Traceback (most recent call last):
-TypeError: 
+TypeError:
 
 
