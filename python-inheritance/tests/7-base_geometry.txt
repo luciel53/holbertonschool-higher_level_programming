@@ -10,8 +10,23 @@ Function to be test:
 area(self)
 integer_validator(self, name, value)
 
-test area error:
+* test area error:
 >>> B.area()
 Traceback (most recent call last):
 Exception: area() is not implemented
+
+* testing if integer_validator is empty:
+>>> integer_validator()
+Traceback (most recent call last):
+NameError: name 'integer_validator' is not defined
+
+* testing if integer_validator doesn't have value:
+>>> integer_validator("age")
+Traceback (most recent call last):
+NameError: name 'integer_validator' is not defined
+
+* testing if integer_validator has a negative value:
+>>> integer_validator("age", -5)
+Traceback (most recent call last):
+NameError: name 'integer_validator' is not defined
 
