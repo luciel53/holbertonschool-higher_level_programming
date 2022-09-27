@@ -1,0 +1,16 @@
+
+#doctest.7-base_geometry.py
+
+
+
+>>> base_geometry = __import__('7-base_geometry.py').base_geometry
+
+
+Function to be test:
+area(self)
+integer_validator(self, name, value)
+
+test area error:
+>>> area(self)
+
+
