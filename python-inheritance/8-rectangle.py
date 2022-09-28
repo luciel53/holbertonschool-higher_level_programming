@@ -10,8 +10,7 @@ class Rectangle(BaseGeometry):
         Instantiation with width and height:
         def __init__(self, width, height):
         """
-        if self.__height >= 0 and self.__width >= 0:
-            self.__height = height
-            self.__width = width
-            self.integer_validator("height", height)
-            self.integer_validator("width", width)
+        self.__height = height
+        self.__width = width
+        self.integer_validator("height", height)
+        self.integer_validator("width", width)
