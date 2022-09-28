@@ -21,6 +21,12 @@ Test without any error:
 [1, 4, 2, 3, 5]
 
 
-Error tests:
+Testing with an empty list:
+>>> empty_list = []
+>>> MyList.print_sorted(empty_list)
+[]
 
-
+Testing with negative number:
+>>> l_neg = [5, -8, 1, 2]
+>>> MyList.print_sorted(l_neg)
+[-8, 1, 2, 5]
