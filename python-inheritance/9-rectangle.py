@@ -2,9 +2,6 @@
 """empty mod"""
 
 
-from sys import pycache_prefix
-
-
 class BaseGeometry:
     """Write an empty class BaseGeometry"""
     def area(self):
