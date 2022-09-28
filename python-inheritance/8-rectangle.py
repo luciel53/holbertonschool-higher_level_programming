@@ -4,6 +4,7 @@
 
 class BaseGeometry:
     """Write an empty class BaseGeometry"""
+   
     def area(self):
         """
         Public instance method: def area(self): that raises an Exception
@@ -29,7 +30,8 @@ class Rectangle(BaseGeometry):
         Instantiation with width and height:
         def __init__(self, width, height):
         """
-        self.__height = height
-        self.__width = width
-        self.integer_validator("height", height)
-        self.integer_validator("width", width)
+        if self.__height >= 0 and self.__width >= 0:
+            self.__height = height
+            self.__width = width
+            self.integer_validator("height", height)
+            self.integer_validator("width", width)

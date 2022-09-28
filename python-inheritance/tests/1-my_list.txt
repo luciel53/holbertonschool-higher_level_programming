@@ -1,6 +1,6 @@
 #doctest.1-my_list.py
 
->>> my_list = __import__('1-my_list.py').my_list
+>>> MyList = __import__('1-my_list').MyList
 
 Test without any error:
 
@@ -19,4 +19,8 @@ Test without any error:
 
 >>> print(my_list)
 [1, 4, 2, 3, 5]
+
+
+Error tests:
+
 
