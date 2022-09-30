@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """mod"""
-import json
 
 
 def class_to_json(obj):
