@@ -87,7 +87,7 @@ class Rectangle(Base):
         display(self): that prints in stdout the Rectangle instance with
         the character # - you don’t need to handle x and y here.
         """
-        str = ((self.__width * "#" + '\n') * self.__height)
+        str = ((" " * self.__x + self.__width * "#" + '\n') * self.__height)
         print(str, end=""[:-1])
 
     def __str__(self):
