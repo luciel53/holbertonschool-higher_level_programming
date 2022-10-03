@@ -19,11 +19,11 @@ class Rectangle(Base):
         the __init__ of the Base class
         Assign each argument width, height, x and y to the right attribute
         """
-        self.__width = width
-        self.__height = height
-        self.__x = x
-        self.__y = y
-        self.__id = id
+        self.width = width
+        self.height = height
+        self.x = x
+        self.y = y
+        self.id = id
         super().__init__(id)
 
     @property
@@ -37,7 +37,7 @@ class Rectangle(Base):
     @property
     def x(self):
         return self.__x
-        
+
     @property
     def y(self):
         return self.__y
@@ -46,11 +46,14 @@ class Rectangle(Base):
     def width(self, value):
         self.__width = value
 
-    def height(self):
-        return self.__height
+    @height.setter
+    def height(self, value):
+        self.__height = value
 
-    def x(self):
-        return self.__x
+    @x.setter
+    def x(self, value):
+        self.__x = value
 
-    def y(self):
-        return self.__y
+    @y.setter
+    def y(self, value):
+        self.__y = value
