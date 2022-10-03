@@ -88,5 +88,4 @@ class Rectangle(Base):
         the character # - you don’t need to handle x and y here.
         """
         str = ((self.__width * "#" + '\n') * self.__height)
-        print(str, end="")
-        print()
+        print(str, end=""[:-1])
