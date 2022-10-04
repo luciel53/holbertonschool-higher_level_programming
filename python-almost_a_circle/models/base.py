@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """Write the first class Base"""
+import json
 
 
 class Base:
@@ -18,5 +19,8 @@ class Base:
         if id is not None:
             self.id = id
         else:
-            Base.__nb_objects +=1
+            Base.__nb_objects += 1
             self.id = Base.__nb_objects
+
+    def to_json_string(list_dictionaries):
+        return json.dumps(list_dictionaries)
