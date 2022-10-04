@@ -31,3 +31,38 @@ class Square(Rectangle):
     @size.setter
     def size(self, size):
         self.width = size
+
+    def update(self, *args, **kwargs):
+        """
+        Update the class Square by adding the public method def
+        update(self, *args, **kwargs) that assigns attributes:
+
+        *args is the list of arguments - no-keyworded arguments
+            1st argument should be the id attribute
+            2nd argument should be the size attribute
+            3rd argument should be the x attribute
+            4th argument should be the y attribute
+        **kwargs can be thought of as a double pointer to a dictionary:
+        key/value (keyworded arguments)
+        **kwargs must be skipped if *args exists and is not empty
+        Each key in this dictionary represents an attribute to the instance
+        """
+        i = 0
+
+        if args:
+            for arg in args:
+                if i == 0:
+                    self.id = arg
+
+                if i == 1:
+                    self.size = arg
+
+                if i == 2:
+                    self.x = arg
+
+                if i == 3:
+                    self.y = arg
+                i += 1
+
+        for key, value in kwargs.items():
+            setattr(self, key, value)
