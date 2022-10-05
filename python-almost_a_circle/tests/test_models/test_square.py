@@ -14,5 +14,6 @@ class TestSquare(unittest.TestCase):
         s = Square(10, 9, 8, 7)
         self.assertDictEqual(dict, s.to_dictionary())
 
+
 if __name__ == "__main__":
     unittest.main()
