@@ -97,9 +97,9 @@ class Base:
         **dictionary must be used as **kwargs of the method update
         You are not allowed to use eval
         """
-        if "Rectangle":
+        if cls.__name__ == "Rectangle":
             dummy = cls(1, 1)
-        elif "Square":
+        elif cls.__name__ == "Square":
             dummy = cls(1)
         dummy.update(cls, **dictionary)
         return dummy
