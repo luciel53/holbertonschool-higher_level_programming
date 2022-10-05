@@ -12,7 +12,7 @@ class TestSquare(unittest.TestCase):
         """
         dict = {'id': 7, 'size': 10, 'x': 9, 'y': 8}
         s = Square(10, 9, 8, 7)
-        self.assertDictEqual(dict, s.to_dictionary())
+        self.assertEqual(dict, s.to_dictionary())
 
 
 if __name__ == "__main__":
