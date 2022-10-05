@@ -101,5 +101,5 @@ class Base:
             dummy = cls(1, 1)
         elif "Square":
             dummy = cls(1)
-        dummy.update(**dictionary)
+        dummy.update(cls, **dictionary)
         return dummy
