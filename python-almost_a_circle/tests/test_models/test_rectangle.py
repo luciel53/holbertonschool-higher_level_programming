@@ -130,7 +130,8 @@ class TestRectangle(unittest.TestCase):
         os.remove("Rectangle.json")
 
     def test_save_to_file_None(self):
-        """Test of Rectangle.save_to_file(None) in Rectangle exists"""
+        """Test of Rectangle.save_to_file([]) in Rectangle exists"""
+        R = []
         Rectangle.save_to_file([])
         with open("Rectangle.json", 'r') as file:
             self.assertEqual(json.loads(file.read()), json.loads('[]'))
