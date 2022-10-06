@@ -18,7 +18,7 @@ class TestSquare(unittest.TestCase):
         """Test of Square.save_to_file([]) in Square exists"""
         Square.save_to_file([])
         with open("Square.json") as file:
-            self.assertEqual(file.read(), "[]")
+            self.assertEqual("[]", file.read())
 
 
 if __name__ == "__main__":
