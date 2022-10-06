@@ -127,7 +127,6 @@ class TestRectangle(unittest.TestCase):
         Rectangle.save_to_file(None)
         with open("Rectangle.json", 'r') as file:
             self.assertEqual(json.loads(file.read()), json.loads('[]'))
-        os.remove("Rectangle.json")
 
 
 if __name__ == "__main__":
