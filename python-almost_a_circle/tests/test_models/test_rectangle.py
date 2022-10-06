@@ -122,9 +122,9 @@ class TestRectangle(unittest.TestCase):
 
     def test_save_to_file_None(self):
         """Test of Rectangle.save_to_file(None) in Rectangle exists"""
-        r = Rectangle.save_to_file(None)
+        Rectangle.save_to_file(None)
         with open("Rectangle.json", 'r') as file:
-            self.assertEqual('[]', file.read())
+            self.assertEqual(file.read(), '[]')
 
 
 if __name__ == "__main__":
