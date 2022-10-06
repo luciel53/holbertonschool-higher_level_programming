@@ -14,6 +14,12 @@ class TestSquare(unittest.TestCase):
         s = Square(10, 9, 8, 7)
         self.assertEqual(dict, s.to_dictionary())
 
+    def test_save_to_file(self):
+        """Test of Square.save_to_file([]) in Square exists"""
+        Square.save_to_file([])
+        with open("Square.json") as file:
+            self.assertEqual(file.read(), "[]")
+
 
 if __name__ == "__main__":
     unittest.main()
