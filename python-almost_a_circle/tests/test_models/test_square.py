@@ -4,6 +4,9 @@ import unittest
 from unittest import mock
 import io
 from models.square import Square
+from models.base import Base
+import os
+import json
 
 
 class TestSquare(unittest.TestCase):
@@ -110,6 +113,19 @@ class TestSquare(unittest.TestCase):
         dict = {'id': 7, 'size': 10, 'x': 9, 'y': 8}
         s = Square(10, 9, 8, 7)
         self.assertEqual(dict, s.to_dictionary())
+
+    def test_save_to_file_none(self):
+        """Test that `save_to_file()` instance used to directly
+        serialize and write to file and delete the file
+        """
+        Base._Base__nb_object = 0
+        s1 = Square(9, 2, 7)
+        s2 = Square(2)
+        Square.save_to_file(None)
+        self.assertIs(os.path.exists("Square.json"), True)
+        with open("Square.json", 'r') as file:
+            self.assertEqual(json.loads(file.read()), json.loads('[]'))
+        os.remove("Square.json")
 
 
 if __name__ == "__main__":
