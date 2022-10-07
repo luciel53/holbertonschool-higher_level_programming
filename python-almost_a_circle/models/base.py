@@ -121,7 +121,7 @@ class Base:
         list_new = str(cls.__name__) + ".json"
         try:
             with open(list_new, "r") as f:
-                cls.from_json_string(f.read())
+                list_new = Base.from_json_string(f.read())
                 return [cls.create(**d) for d in list_new]
         except Exception:
             return []
