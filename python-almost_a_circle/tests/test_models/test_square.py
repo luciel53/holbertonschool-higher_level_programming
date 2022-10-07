@@ -144,6 +144,13 @@ class TestSquare(unittest.TestCase):
         self.assertEqual(len(load_file), 0)
         os.remove("Square.json")
 
-        
+    def test_save_to_file(self):
+        """Test of Square.save_to_file(None) in Square exists"""
+        Square.save_to_file([Square(1)])
+        with open("Square.json", mode="r") as read_file:
+            s = read_file.read()
+            self.assertEqual(len(s), 39)
+
+
 if __name__ == "__main__":
     unittest.main()
