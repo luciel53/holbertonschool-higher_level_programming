@@ -135,6 +135,15 @@ class TestSquare(unittest.TestCase):
             self.assertEqual("[]", file2.read())
         os.remove("Square.json")
 
+    def test_load_from_file(self):
+        """Test of Square.load_from_file(None) in Square exists"""
+        Square.save_to_file(None)
+        self.assertTrue(os.path.isfile('Square.json'))
 
+        load_file = Square.load_from_file()
+        self.assertEqual(len(load_file), 0)
+        os.remove("Square.json")
+
+        
 if __name__ == "__main__":
     unittest.main()
