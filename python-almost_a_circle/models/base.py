@@ -118,10 +118,10 @@ class Base:
         You must use the from_json_string and create methods
         (implemented previously)
         """
-        new_l = str(cls.__name__) + ".json"
+        list_new = str(cls.__name__) + ".json"
         try:
-            with open(new_l, "r") as f:
+            with open(list_new, "r") as f:
                 cls.from_json_string(f.read())
-                return [cls.create(**d) for d in new_l]
+                return [cls.create(**d) for d in list_new]
         except Exception:
             return []
