@@ -135,6 +135,14 @@ class TestRectangle(unittest.TestCase):
         with open("Rectangle.json", "r") as fileempty:
             self.assertEqual("[]", fileempty.read())
 
+    def test_save_to_file_r(self):
+        """Test of Square.save_to_file(None) in Square exists"""
+        Rectangle.save_to_file([Rectangle(1, 2)])
+        with open("Rectangle.json", mode="r") as read_file:
+            s = read_file.read()
+            self.assertNotEqual(len(s), 2)
+        os.remove("Rectangle.json")
+
 
 if __name__ == "__main__":
     unittest.main()
