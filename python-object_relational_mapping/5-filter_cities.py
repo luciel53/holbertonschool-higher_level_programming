@@ -25,13 +25,17 @@ if __name__ == '__main__':
                          db=sys.argv[3],
                          port=3306)
     cur = db.cursor()
-    cur.execute("SELECT cities.id, cities.name, states.name FROM cities\
-                LEFT JOIN\
-                states ON cities.state_id = states.id WHERE states.name=%s\
-                ORDER by cities.id ASC;",
+    cur.execute("""SELECT cities.id, cities.name, states.name FROM cities
+                LEFT JOIN
+                states ON cities.state_id = states.id WHERE states.name=%s
+                ORDER by cities.id ASC""",
                 (sys.argv[4], ))
     line = cur.fetchall()
-    for city in line:
-        print(city[1], end=", ")
+    for i, city in enumerate(line, start=0):
+        # each word (!= 0), add a comma
+        if i != 0:
+            print(", ", end="")
+        print(city[1], end="")
+    print()
     cur.close()
     db.close()
