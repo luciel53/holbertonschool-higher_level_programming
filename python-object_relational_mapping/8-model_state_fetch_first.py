@@ -26,5 +26,7 @@ if __name__ == "__main__":
 
     if line:
         print("{}: {}".format(line.id, line.name))
+    else:
+        print("Nothing")
 
     session.close()
