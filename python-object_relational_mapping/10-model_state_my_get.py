@@ -26,7 +26,7 @@ if __name__ == "__main__":
                             .order_by(State.id)
 
     for state in r:
-        if r:
+        if state:
             print("{}".format(state.id))
         else:
             print("Not found")
