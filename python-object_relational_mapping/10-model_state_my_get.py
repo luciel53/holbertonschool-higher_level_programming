@@ -25,10 +25,10 @@ if __name__ == "__main__":
     r = session.query(State).filter(State.name == sys.argv[4])\
                             .order_by(State.id)
 
-    for state in r:
-        if state is not None:
+    if r:
+        for state in r:
             print("{}".format(state.id))
-        else:
-            print("Not found")
+    else:
+        print("Not found")
 
     session.close()
