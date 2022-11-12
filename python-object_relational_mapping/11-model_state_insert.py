@@ -22,12 +22,13 @@ if __name__ == "__main__":
     # create a Session
     session = Session()
 
+    # add new state "Louisiana" to database hbtn_0e_6_usa
     new_state = State(name="Louisiana")
     session.add(new_state)
+    session.commit()
 
     line = session.query(State).order_by(State.id)
 
-    for state in line:
-        print("{}: {}".format(state.id, state.name))
+    print("{}".format(new_state.id))
 
     session.close()
