@@ -22,7 +22,7 @@ if __name__ == "__main__":
 
     # create a Session
     session = Session()
-    for line in session.query(State).filter(State.name.like('%a%')):
+    for line in session.query(State).filter(State.name.like('a')):
         session.delete(line)
     session.commit()
     session.close()
