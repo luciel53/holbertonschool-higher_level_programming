@@ -116,7 +116,7 @@ $
 
 ## Tasks
 
-### 0. List databases
+### [0. List databases](https://github.com/luciel53/holbertonschool-higher_level_programming/blob/main/SQL_introduction/0-list_databases.sql)
 
 Write a script that lists all databases of your MySQL server.
 ```
@@ -137,7 +137,7 @@ guillaume@ubuntu:~/$
 * Directory: `SQL_introduction`
 * File: `0-list_databases.sql`
 
-### 1. Create a database
+### [1. Create a database](https://github.com/luciel53/holbertonschool-higher_level_programming/blob/main/SQL_introduction/1-create_database_if_missing.sql)
 
 Write a script that creates the database `hbtn_0c_0` in your MySQL server.
 
@@ -164,7 +164,7 @@ guillaume@ubuntu:~/$
 * Directory: `SQL_introduction`
 * File: `1-create_database_if_missing.sql`
 
-### 2. Delete a database
+### [2. Delete a database](https://github.com/luciel53/holbertonschool-higher_level_programming/blob/main/SQL_introduction/2-remove_database.sql)
 
 Write a script that deletes the database `hbtn_0c_0` in your MySQL server.
 
@@ -197,7 +197,7 @@ guillaume@ubuntu:~/$
 * Directory: `SQL_introduction`
 * File: `2-remove_database.sql`
 
-### 3. List tables
+### [3. List tables](https://github.com/luciel53/holbertonschool-higher_level_programming/blob/main/SQL_introduction/3-list_tables.sql)
 
 Write a script that lists all the tables of a database in your MySQL server.
 
@@ -250,7 +250,7 @@ guillaume@ubuntu:~/$
 * Directory: `SQL_introduction`
 * File: `3-list_tables.sql`
 
-### 4. First table
+### [4. First table](https://github.com/luciel53/holbertonschool-higher_level_programming/blob/main/SQL_introduction/4-first_table.sql)
 
 Write a script that creates a table called `first_table` in the current database in your MySQL server.
 
@@ -276,7 +276,7 @@ guillaume@ubuntu:~/$
 * Directory: `SQL_introduction`
 * File: `4-first_table.sql`
 
-### 5. Full description
+### [5. Full description](https://github.com/luciel53/holbertonschool-higher_level_programming/blob/main/SQL_introduction/5-full_table.sql)
 
 Write a script that prints the full description of the table `first_table` from the database `hbtn_0c_0` in your MySQL server.
 
@@ -296,7 +296,7 @@ guillaume@ubuntu:~/$
 * Directory: `SQL_introduction`
 * File: `5-full_table.sql`
 
-### 6. List all in table
+### [6. List all in table](https://github.com/luciel53/holbertonschool-higher_level_programming/blob/main/SQL_introduction/6-list_values.sql)
 
 Write a script that lists all rows of the table `first_table` from the database `hbtn_0c_0` in your MySQL server.
 
@@ -314,7 +314,7 @@ guillaume@ubuntu:~/$
 * Directory: `SQL_introduction`
 * File: `6-list_values.sql`
 
-### 7. First add
+### [7. First add](https://github.com/luciel53/holbertonschool-higher_level_programming/blob/main/SQL_introduction/7-insert_value.sql)
 
 Write a script that inserts a new row in the table `first_table` (database `hbtn_0c_0`) in your MySQL server.
 
@@ -348,7 +348,7 @@ guillaume@ubuntu:~/$
 * Directory: `SQL_introduction`
 * File: `7-insert_value.sql`
 
-### 8. Count 89
+### [8. Count 89](https://github.com/luciel53/holbertonschool-higher_level_programming/blob/main/SQL_introduction/8-count_89.sql)
 
 Write a script that displays the number of records with `id = 89` in the table `first_table` of the database `hbtn_0c_0` in your MySQL server.
 
@@ -366,7 +366,7 @@ guillaume@ubuntu:~/$
 * Directory: `SQL_introduction`
 * File: `8-count_89.sql`
 
-### 9. Full creation
+### [9. Full creation](https://github.com/luciel53/holbertonschool-higher_level_programming/blob/main/SQL_introduction/9-full_creation.sql)
 
 Write a script that creates a table `second_table` in the database `hbtn_0c_0` in your MySQL server and add multiples rows.
 
@@ -395,7 +395,7 @@ guillaume@ubuntu:~/$
 * Directory: `SQL_introduction`
 * File: `9-full_creation.sql`
 
-### 10. List by best
+### [10. List by best](https://github.com/luciel53/holbertonschool-higher_level_programming/blob/main/SQL_introduction/10-top_score.sql)
 
 Write a script that lists all records of the table `second_table` of the database `hbtn_0c_0` in your MySQL server.
 
@@ -418,7 +418,7 @@ guillaume@ubuntu:~/$
 * Directory: `SQL_introduction`
 * File: `10-top_score.sql`
 
-### 11.  Select the best
+### [11.  Select the best](https://github.com/luciel53/holbertonschool-higher_level_programming/blob/main/SQL_introduction/11-best_score.sql)
 
 Write a script that lists all records with a `score >= 10` in the table `second_table` of the database `hbtn_0c_0` in your MySQL server.
 
@@ -441,7 +441,7 @@ guillaume@ubuntu:~/$
 * Directory: `SQL_introduction`
 * File: `11-best_score.sql`
 
-### 12.  Cheating is bad
+### [12.  Cheating is bad](https://github.com/luciel53/holbertonschool-higher_level_programming/blob/main/SQL_introduction/12-no_cheating.sql)
 
 Write a script that updates the score of Bob to `10` in the table `second_table`.
 
@@ -466,7 +466,7 @@ guillaume@ubuntu:~/$
 * Directory: `SQL_introduction`
 * File: `12-no_cheating.sql`
 
-### 13. Score too low
+### [13. Score too low](https://github.com/luciel53/holbertonschool-higher_level_programming/blob/main/SQL_introduction/13-change_class.sql)
 
 Write a script that removes all records with a `score <= 5` in the table `second_table` of the database `hbtn_0c_0` in your MySQL server.
 
@@ -489,7 +489,7 @@ guillaume@ubuntu:~/$
 * Directory: `SQL_introduction`
 * File: `13-change_class.sql`
 
-### 14.  Average
+### [14.  Average](https://github.com/luciel53/holbertonschool-higher_level_programming/blob/main/SQL_introduction/14-average.sql)
 
 Write a script that computes the score average of all records in the table `second_table` of the database `hbtn_0c_0` in your MySQL server.
 
@@ -510,7 +510,7 @@ guillaume@ubuntu:~/$
 * Directory: `SQL_introduction`
 * File: `14-average.sql`
 
-### 15.  Number by score
+### [15.  Number by score](https://github.com/luciel53/holbertonschool-higher_level_programming/blob/main/SQL_introduction/14-average.sql)
 
 Write a script that lists the number of records with the same score in the table `second_table` of the database `hbtn_0c_0` in your MySQL server.
 
@@ -535,7 +535,7 @@ guillaume@ubuntu:~/$
 * Directory: `SQL_introduction`
 * File: `15-groups.sql`
 
-### 16.  Say my name
+### [16.  Say my name](https://github.com/luciel53/holbertonschool-higher_level_programming/blob/main/SQL_introduction/16-no_link.sql)
 
 Write a script that lists all records of the table `second_table` of the database `hbtn_0c_0` in your MySQL server.
 
@@ -562,108 +562,3 @@ guillaume@ubuntu:~/$
 * GitHub repository: `holbertonschool-higher_level_programming`
 * Directory: `SQL_introduction`
 * File: `16-no_link.sql`
-
-### 17.  Go to UTF8
-
-Write a script that converts `hbtn_0c_0` database to UTF8 (`utf8mb4`, collate `utf8mb4_unicode_ci`) in your MySQL server.
-
-You need to convert all of the following to `UTF8`:
-
-* Database `hbtn_0c_0`
-* Table `first_table`
-* Field name in `first_table`
-```
-guillaume@ubuntu:~/$ cat 100-move_to_utf8.sql | mysql -hlocalhost -uroot -p
-Enter password:
-guillaume@ubuntu:~/$ cat 5-full_table.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password:
-Table   Create Table
-first_table CREATE TABLE `first_table` (\n  `id` int(11) DEFAULT NULL,\n  `name` varchar(256) COLLATE utf8mb4_unicode_ci DEFAULT NULL\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
-guillaume@ubuntu:~/$
-```
-**Repo:**
-
-* GitHub repository: `holbertonschool-higher_level_programming`
-* Directory: `SQL_introduction`
-* File: `100-move_to_utf8.sql`
-
-### 18.  Temperatures #0
-
-Import in `hbtn_0c_0` database this table dump: download
-
-Write a script that displays the average temperature (Fahrenheit) by city ordered by temperature (descending).
-
-```
-guillaume@ubuntu:~/$ cat 101-avg_temperatures.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password:
-city    avg_temp
-Chandler    72.8627
-Gilbert 71.8088
-Pismo beach 71.5147
-San Francisco   71.4804
-Sedona  70.7696
-Phoenix 70.5882
-Oakland 70.5637
-Sunnyvale   70.5245
-Chicago 70.4461
-San Diego   70.1373
-Glendale    70.1225
-Sonoma  70.0392
-Yuma    69.3873
-San Jose    69.2990
-Tucson  69.0245
-Joliet  68.6716
-Naperville  68.1029
-Tempe   67.0441
-Peoria  66.5392
-guillaume@ubuntu:~/$
-```
-
-**Repo:**
-
-* GitHub repository: `holbertonschool-higher_level_programming`
-* Directory: `SQL_introduction`
-* File: `101-avg_temperatures.sql`
-
-### 19.  Temperatures #1
-
-Import in `hbtn_0c_0` database this table dump: [download](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/272/temperatures.sql) (same as `Temperatures #0`)
-
-Write a script that displays the top 3 of cities temperature during July and August ordered by temperature (descending)
-
-```
-guillaume@ubuntu:~/$ cat 102-top_city.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password:
-city    avg_temp
-Naperville  76.9412
-San Diego   73.7941
-Sunnyvale   73.2353
-guillaume@ubuntu:~/$
-```
-
-**Repo:**
-
-* GitHub repository: `holbertonschool-higher_level_programming`
-* Directory: `SQL_introduction`
-* File: `102-top_city.sql`
-
-### 20.  Temperatures #2
-
-Import in `hbtn_0c_0` database this table dump: [download](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/272/temperatures.sql) (same as `Temperatures #0`)
-
-Write a script that displays the max temperature of each state (ordered by State name).
-
-```
-guillaume@ubuntu:~/$ cat 103-max_state.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-Enter password:
-state   max_temp
-AZ  110
-CA  110
-IL  110
-guillaume@ubuntu:~/$
-```
-**Repo:**
-
-* GitHub repository: `holbertonschool-higher_level_programming`
-* Directory: `SQL_introduction`
-* File: `103-max_state.sql`
