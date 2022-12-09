@@ -5,12 +5,7 @@ const b = parseInt(process.argv[2]);
 if (isNaN(b)) {
   console.log('Missing size');
 } else {
-  let s = '';
   for (let i = 0; i < b; i++) {
-    for (let j = 0; j < b; j++) {
-      s += 'X';
-    }
-    s += '\n';
+    console.log('X'.repeat(b));
   }
-  console.log(s);
 }
