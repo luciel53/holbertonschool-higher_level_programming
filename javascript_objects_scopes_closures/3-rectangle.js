@@ -10,11 +10,13 @@ class Rectangle {
     }
     /* Create an instance method called print() that prints the rectangle
 using the character X */
-    this.print = function () {
-      for (let i = 0; i < this.height; i++) {
-        console.log('X'.repeat(this.width));
-      }
-    };
+  }
+
+  print () {
+    for (let i = 0; i < this.height; i++) {
+      console.log('X'.repeat(this.width));
+    }
   }
 }
+
 module.exports = Rectangle;
