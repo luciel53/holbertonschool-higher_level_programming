@@ -7,7 +7,11 @@ const request = require('request');
 const url = ('https://swapi-api.hbtn.io/api/films/' + process.argv[2]);
 request(url, function (error, response, body) {
   /* takes a JSON string and returns a Javascript object */
-  body = JSON.parse(body);
-  /* prints the title */
-  console.log(body.title);
+  if (body === undefined) {
+    console.error('error:', error);
+  } else {
+    body = JSON.parse(body);
+    /* prints the title */
+    console.log(body.title);
+  }
 });
