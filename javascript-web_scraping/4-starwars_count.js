@@ -7,8 +7,8 @@ const url = process.argv[2];
 let count = 0;
 
 request(url, function (error, response, body) {
-  if (body === undefined) {
-    console.error('error:', error);
+  if (error) {
+		console.log(error);
   } else {
     /* json to a javascript object */
     const tojavasobj = JSON.parse(body);
@@ -19,7 +19,6 @@ request(url, function (error, response, body) {
         count++;
       }
     }
-	console.log(count);
   }
-
+  console.log(count);
 });
