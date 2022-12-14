@@ -14,7 +14,7 @@ request(url, function (error, response, body) {
     const tojavasobj = JSON.parse(body);
 
     /* count the number of movies (reduce adds) */
-    for (let i = 0; tojavasobj.results[i]; i++) {
+    for (let i = 0; tojavasobj.results[i] !== undefined; i++) {
       if (tojavasobj.results[i].characters.includes('https://swapi-api.hbtn.io/api/people/18/')) {
         count++;
       }
