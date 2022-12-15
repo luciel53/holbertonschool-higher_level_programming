@@ -15,8 +15,10 @@ request(url, function (error, response, body) {
 
     /* count the number of movies (reduce adds) */
     for (let i = 0; tojavasobj.results[i]; i++) {
-      if (tojavasobj.results[i].characters.includes('https://swapi-api.hbtn.io/api/people/18/')) {
-        count++;
+      for (let index = 0; index < tojavasobj.results[i].characters.length; index++) {
+        if (tojavasobj.results[i].characters[index].endsWith('/18/')) {
+          count++;
+        }
       }
     }
     console.log(count);

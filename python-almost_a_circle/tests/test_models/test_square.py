@@ -144,7 +144,7 @@ class TestSquare(unittest.TestCase):
         self.assertEqual(len(load_file), 0)
         os.remove("Square.json")
 
-    def test_save_to_file(self):
+    def test_save_to_file1(self):
         """Test of Square.save_to_file(None) in Square exists"""
         Square.save_to_file([Square(1)])
         with open("Square.json", mode="r") as read_file:
